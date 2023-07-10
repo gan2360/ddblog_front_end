@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -21,8 +20,31 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #eaeaea;
+  min-height: 100vh;
+  overflow: hidden;
+
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #2c3e50;
+}
+input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+i{
+  margin: 0 5px;
 }
 </style>
